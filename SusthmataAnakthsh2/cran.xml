@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?><Document>
+    <Element>
+        <ID>001.</ID>
+        <TITLE>what similarity laws must be obeyed when constructing aeroelastic modelsof heated high speed aircraft .</TITLE>
+    </Element>
+    <Element>
+        <ID>002.</ID>
+        <TITLE>what are the structural and aeroelastic problems associated with flightof high speed aircraft .</TITLE>
+    </Element>
+    <Element>
+        <ID>004.</ID>
+        <TITLE>what problems of heat conduction in composite slabs have been solved sofar .</TITLE>
+    </Element>
+    <Element>
+        <ID>008.</ID>
+        <TITLE>can a criterion be developed to show empirically the validity of flowsolutions for chemically reacting gas mixtures based on the simplifyingassumption of instantaneous local chemical equilibrium .</TITLE>
+    </Element>
+    <Element>
+        <ID>009.</ID>
+        <TITLE>what chemical kinetic system is applicable to hypersonic aerodynamicproblems .</TITLE>
+    </Element>
+    <Element>
+        <ID>010.</ID>
+        <TITLE>what theoretical and experimental guides do we have as to turbulentcouette flow behaviour .</TITLE>
+    </Element>
+    <Element>
+        <ID>012.</ID>
+        <TITLE>is it possible to relate the available pressure distributions for anogive forebody at zero angle of attack to the lower surface pressures ofan equivalent ogive forebody at angle of attack .</TITLE>
+    </Element>
+    <Element>
+        <ID>013.</ID>
+        <TITLE>what methods -dash exact or approximate -dash are presently availablefor predicting body pressures at angle of attack.</TITLE>
+    </Element>
+    <Element>
+        <ID>015.</ID>
+        <TITLE>papers on internal /slip flow/ heat transfer studies .</TITLE>
+    </Element>
+    <Element>
+        <ID>018.</ID>
+        <TITLE>are real-gas transport properties for air available over a wide range ofenthalpies and densities .</TITLE>
+    </Element>
+    <Element>
+        <ID>022.</ID>
+        <TITLE>is it possible to find an analytical,  similar solution of the strongblast wave problem in the newtonian approximation .</TITLE>
+    </Element>
+    <Element>
+        <ID>023.</ID>
+        <TITLE>how can the aerodynamic performance of channel flow ground effectmachines be calculated .</TITLE>
+    </Element>
+    <Element>
+        <ID>026.</ID>
+        <TITLE>what is the basic mechanism of the transonic aileron buzz .</TITLE>
+    </Element>
+    <Element>
+        <ID>027.</ID>
+        <TITLE>papers on shock-sound wave interaction .</TITLE>
+    </Element>
+    <Element>
+        <ID>029.</ID>
+        <TITLE>material properties of photoelastic materials .</TITLE>
+    </Element>
+    <Element>
+        <ID>031.</ID>
+        <TITLE>can the transverse potential flow about a body of revolution becalculated efficiently by an electronic computer .</TITLE>
+    </Element>
+    <Element>
+        <ID>032.</ID>
+        <TITLE>can the three-dimensional problem of a transverse potential flow abouta body of revolution be reduced to a two-dimensional problem .</TITLE>
+    </Element>
+    <Element>
+        <ID>033.</ID>
+        <TITLE>are experimental pressure distributions on bodies of revolution at angleof attack available .</TITLE>
+    </Element>
+    <Element>
+        <ID>034.</ID>
+        <TITLE>does there exist a good basic treatment of the dynamics of re-entrycombining consideration of realistic effects with relative simplicity ofresults .</TITLE>
+    </Element>
+    <Element>
+        <ID>035.</ID>
+        <TITLE>has anyone formally determined the influence of joule heating,  producedby the induced current,  in magnetohydrodynamic free convection flowsunder general conditions .</TITLE>
+    </Element>
+    <Element>
+        <ID>039.</ID>
+        <TITLE>why does the compressibility transformation fail to correlate the highspeed data for helium and air .</TITLE>
+    </Element>
+    <Element>
+        <ID>040.</ID>
+        <TITLE>did anyone else discover that the turbulent skin friction is not oversensitive to the nature of the variation of the viscosity withtemperature .</TITLE>
+    </Element>
+    <Element>
+        <ID>041.</ID>
+        <TITLE>what progress has been made in research on unsteady aerodynamics .</TITLE>
+    </Element>
+    <Element>
+        <ID>049.</ID>
+        <TITLE>what are the factors which influence the time required to invert largestructural matrices .</TITLE>
+    </Element>
+    <Element>
+        <ID>050.</ID>
+        <TITLE>does a practical flow follow the theoretical concepts for theinteraction between adjacent blade rows of a supersonic cascade .</TITLE>
+    </Element>
+    <Element>
+        <ID>051.</ID>
+        <TITLE>what is a single approximate formula for the displacement thickness ofa laminar boundary layer in compressible flow on a flat plate .</TITLE>
+    </Element>
+    <Element>
+        <ID>052.</ID>
+        <TITLE>how is the design of ring or part ring wings by linear theory affectedby thickness .</TITLE>
+    </Element>
+    <Element>
+        <ID>053.</ID>
+        <TITLE>what application has the linear theory design of curved wings .</TITLE>
+    </Element>
+    <Element>
+        <ID>054.</ID>
+        <TITLE>what is the effect of cross sectional shape on the flow over simpledelta wings with sharp leading edges .</TITLE>
+    </Element>
+    <Element>
+        <ID>055.</ID>
+        <TITLE>papers on flow visualization on slender conical wings .</TITLE>
+    </Element>
+    <Element>
+        <ID>056.</ID>
+        <TITLE>what size of end plate can be safely used to simulate two-dimensionalflow conditions over a bluff cylindrical body of finite aspect ratio .</TITLE>
+    </Element>
+    <Element>
+        <ID>057.</ID>
+        <TITLE>to find an approximate correction for thickness in slender thin-wingtheory .</TITLE>
+    </Element>
+    <Element>
+        <ID>058.</ID>
+        <TITLE>how do interference-free longitudinal stability measurements (madeusing free-flight models) compare with similar measurements made ina low-blockage wind tunnel .</TITLE>
+    </Element>
+    <Element>
+        <ID>059.</ID>
+        <TITLE>have wind tunnel interference effects been investigated on a systematicbasis .</TITLE>
+    </Element>
+    <Element>
+        <ID>061.</ID>
+        <TITLE>are there any papers dealing with acoustic wave propagation in reactinggases .</TITLE>
+    </Element>
+    <Element>
+        <ID>062.</ID>
+        <TITLE>has anyone investigated relaxation effects on gaseous heat transfer to asuddenly heated wall .</TITLE>
+    </Element>
+    <Element>
+        <ID>066.</ID>
+        <TITLE>are there any theoretical methods for predicting base pressure .</TITLE>
+    </Element>
+    <Element>
+        <ID>067.</ID>
+        <TITLE>does transition in the hypersonic wake depend on body geometry and size</TITLE>
+    </Element>
+    <Element>
+        <ID>068.</ID>
+        <TITLE>how can one detect transition phenomena in boundary layers .</TITLE>
+    </Element>
+    <Element>
+        <ID>069.</ID>
+        <TITLE>how can one detect transition phenomena in hypersonic wakes .</TITLE>
+    </Element>
+    <Element>
+        <ID>071.</ID>
+        <TITLE>has anyone investigated and developed a simple model for the vortexwake behind a cruciform wing .</TITLE>
+    </Element>
+    <Element>
+        <ID>072.</ID>
+        <TITLE>what is a criterion that the transonic flow around an airfoil with around leading edge be validly analyzed by the linearized transonic flowtheory .</TITLE>
+    </Element>
+    <Element>
+        <ID>074.</ID>
+        <TITLE>can the transonic flow around an arbitrary smooth thin airfoil beanalysed in a simple approximate way .</TITLE>
+    </Element>
+    <Element>
+        <ID>079.</ID>
+        <TITLE>what are the details of the rigorous kinetic theory of gases .(chapman-enskog theory) .</TITLE>
+    </Element>
+    <Element>
+        <ID>080.</ID>
+        <TITLE>has anyone investigated the effect of surface mass transfer onhypersonic viscous interactions .</TITLE>
+    </Element>
+    <Element>
+        <ID>081.</ID>
+        <TITLE>what is the combined effect of surface heat and mass transfer onhypersonic flow .</TITLE>
+    </Element>
+    <Element>
+        <ID>082.</ID>
+        <TITLE>what are the existing solutions for hypersonic viscous interactions overan insulated flat plate .</TITLE>
+    </Element>
+    <Element>
+        <ID>083.</ID>
+        <TITLE>what controls leading-edge attachment at transonic speeds .</TITLE>
+    </Element>
+    <Element>
+        <ID>084.</ID>
+        <TITLE>can the three-point boundary-value problem for the blasius equationbe integrated numerically,  using suitable transformations,  withoutiteration on the boundary conditions .</TITLE>
+    </Element>
+    <Element>
+        <ID>085.</ID>
+        <TITLE>what are the effects of small amounts of gas rarefaction on thecharacteristics of the boundary layers on slender bodies of revolution .</TITLE>
+    </Element>
+    <Element>
+        <ID>086.</ID>
+        <TITLE>what is the available information pertaining to boundary layers on veryslender bodies of revolution in continuum flow (the ?transversecurvature  effect) .</TITLE>
+    </Element>
+    <Element>
+        <ID>087.</ID>
+        <TITLE>what is the available information pertaining to the effect of slightrarefaction on boundary layer flows (the ?slip? effect) .</TITLE>
+    </Element>
+    <Element>
+        <ID>093.</ID>
+        <TITLE>what investigations have been made of the flow field about a body movingthrough a rarefied,  partially ionized gas in the presence of a magneticfield .</TITLE>
+    </Element>
+    <Element>
+        <ID>094.</ID>
+        <TITLE>how is the heat transfer downstream of the mass transfer region effectedby mass transfer at the nose of a blunted cone .</TITLE>
+    </Element>
+    <Element>
+        <ID>095.</ID>
+        <TITLE>to what extent can the available information for incompressible boundarylayers be applied to problems involving compressible boundary layers .</TITLE>
+    </Element>
+    <Element>
+        <ID>097.</ID>
+        <TITLE>to what extent can readily available steady-state aerodynamic data beutilized to predict lifting-surface flutter characteristics .</TITLE>
+    </Element>
+    <Element>
+        <ID>098.</ID>
+        <TITLE>what are the significant steady and non-steady flow characteristicswhich affect the flutter mechanism .</TITLE>
+    </Element>
+    <Element>
+        <ID>099.</ID>
+        <TITLE>is it possible to determine rates of forced convective heat transferfrom heated cylinders of non-circular cross-section,  (the fluid flowbeing along the generators) .</TITLE>
+    </Element>
+    <Element>
+        <ID>100.</ID>
+        <TITLE>how much is known about boundary layer flows along non-circularcylinders .</TITLE>
+    </Element>
+    <Element>
+        <ID>101.</ID>
+        <TITLE>is there any simple,  but practical,  method for numerical integrationof the mixing problem (i.e. the blasius problem with three-pointboundary conditions) .</TITLE>
+    </Element>
+    <Element>
+        <ID>102.</ID>
+        <TITLE>does there exist a closed-form expression for the local heat transferaround a yawed cylinder .</TITLE>
+    </Element>
+    <Element>
+        <ID>103.</ID>
+        <TITLE>how far around a cylinder and under what conditions of flow,  if any,is the velocity just outside of the boundary layer a linear function ofthe distance around the cylinder .</TITLE>
+    </Element>
+    <Element>
+        <ID>104.</ID>
+        <TITLE>where can i find pressure data on surfaces of swept cylinders .</TITLE>
+    </Element>
+    <Element>
+        <ID>105.</ID>
+        <TITLE>can't the static deflection shapes be used in predicting flutter inplace of vibrational shapes . if so,  can we provide a justification bymeans of an example .</TITLE>
+    </Element>
+    <Element>
+        <ID>106.</ID>
+        <TITLE>does the boundary layer on a flat plate in a shear flow induce apressure gradient .</TITLE>
+    </Element>
+    <Element>
+        <ID>107.</ID>
+        <TITLE>can the procedure of matching inner and outer solutions for a viscousflow problem be applied when the main stream is a shear flow .</TITLE>
+    </Element>
+    <Element>
+        <ID>108.</ID>
+        <TITLE>can series expansions be found for the boundary layer on a flat plate ina shear flow .</TITLE>
+    </Element>
+    <Element>
+        <ID>109.</ID>
+        <TITLE>what possible techniques are available for computing the injectiondistribution corresponding to an isothermal transpiration cooledhemisphere .</TITLE>
+    </Element>
+    <Element>
+        <ID>110.</ID>
+        <TITLE>what is known regarding asymptotic solutions to the exact boundary layerequations .</TITLE>
+    </Element>
+    <Element>
+        <ID>111.</ID>
+        <TITLE>previous solutions to the boundary layer similarity equations .</TITLE>
+    </Element>
+    <Element>
+        <ID>112.</ID>
+        <TITLE>experimental results on hypersonic viscous interaction .</TITLE>
+    </Element>
+    <Element>
+        <ID>113.</ID>
+        <TITLE>what has been done about viscous interactions in relatively low reynoldsnumber flows,  particularly at high mach numbers .</TITLE>
+    </Element>
+    <Element>
+        <ID>114.</ID>
+        <TITLE>what role does the effect of chemical reaction (particularly when out ofequilibrium) play in the similitude laws governing hypersonic flows overslender aerodynamic bodies .</TITLE>
+    </Element>
+    <Element>
+        <ID>116.</ID>
+        <TITLE>how significant is the possible pressure of a dissociated free streamwith respect to the realization of hypersonic simulation in highenthalpy wind tunnels .</TITLE>
+    </Element>
+    <Element>
+        <ID>118.</ID>
+        <TITLE>do the discrepancies among current analyses of the vorticity effecton stagnation-point heat transfer result primarily from thedifferences in the viscosity-temperature law assumed .</TITLE>
+    </Element>
+    <Element>
+        <ID>119.</ID>
+        <TITLE>how far can one trust the linear viscosity-temperature solutionassumed in some of the analyses of hypersonic shock layer at lowreynolds number .</TITLE>
+    </Element>
+    <Element>
+        <ID>120.</ID>
+        <TITLE>how close is the comparison of the shock layer theory with existingexperiments in the low reynolds number (merged-layer) regime .</TITLE>
+    </Element>
+    <Element>
+        <ID>121.</ID>
+        <TITLE>has anyone explained the kink in the surge line of a multi-stageaxial compressor .</TITLE>
+    </Element>
+    <Element>
+        <ID>122.</ID>
+        <TITLE>have any aerodynamic derivatives been measured at hypersonic machnumbers and comparison been made with theoretical work .</TITLE>
+    </Element>
+    <Element>
+        <ID>123.</ID>
+        <TITLE>are methods of measuring aerodynamic derivatives available whichcould be adopted for use in short running time facilities .</TITLE>
+    </Element>
+    <Element>
+        <ID>126.</ID>
+        <TITLE>what are wind-tunnel corrections for a two-dimensional aerofoilmounted off-centre in a tunnel .</TITLE>
+    </Element>
+    <Element>
+        <ID>128.</ID>
+        <TITLE>how do kuchemann's and multhopp's methods for calculating liftdistributions on swept wings in subsonic flow compare with each other and withexperiment .</TITLE>
+    </Element>
+    <Element>
+        <ID>130.</ID>
+        <TITLE>what is the present state of the theory of quasi-conical flows .</TITLE>
+    </Element>
+    <Element>
+        <ID>131.</ID>
+        <TITLE>references on the methods available for accurately estimatingaerodynamic heat transfer to conical bodies for both laminar and turbulentflow .</TITLE>
+    </Element>
+    <Element>
+        <ID>132.</ID>
+        <TITLE>what parameters can seriously influence natural transitionfrom laminar to turbulent flow on a model in a wind tunnel .</TITLE>
+    </Element>
+    <Element>
+        <ID>133.</ID>
+        <TITLE>can a satisfactory experimental technique be developed for measuringoscillatory derivatives on slender sting-mounted models in supersonicwind tunnels .</TITLE>
+    </Element>
+    <Element>
+        <ID>135.</ID>
+        <TITLE>what effect has the boundary layer in modifying the basic inviscid flowbehind the shock,  neglecting effects of leading edge and corner .</TITLE>
+    </Element>
+    <Element>
+        <ID>136.</ID>
+        <TITLE>how does a satellite orbit contract under the action of air drag inan atmosphere in which the scale height varies with altitude .</TITLE>
+    </Element>
+    <Element>
+        <ID>137.</ID>
+        <TITLE>how is the flow at transonic speeds about a delta wing differentfrom that on a closely-related tapered sweptback wing .</TITLE>
+    </Element>
+    <Element>
+        <ID>138.</ID>
+        <TITLE>recent data on shock-induced boundary-layer separation .</TITLE>
+    </Element>
+    <Element>
+        <ID>139.</ID>
+        <TITLE>what interference effects are likely at transonic speeds .</TITLE>
+    </Element>
+    <Element>
+        <ID>140.</ID>
+        <TITLE>given complete freedom in the design of an airplane,  what procedurewould be used in order to minimize sonic boom intensity,  and is there alimit to the degree of minimizing that can be accomplished .</TITLE>
+    </Element>
+    <Element>
+        <ID>141.</ID>
+        <TITLE>can methane-air combustion product be used as a hypersonic testmedium and predict, within experimental accuracies, the resultsobtained in air .</TITLE>
+    </Element>
+    <Element>
+        <ID>142.</ID>
+        <TITLE>what is the theoretical heat transfer rate at the stagnation point of ablunt body .</TITLE>
+    </Element>
+    <Element>
+        <ID>143.</ID>
+        <TITLE>what is the theoretical heat transfer distribution around a hemisphere .</TITLE>
+    </Element>
+    <Element>
+        <ID>145.</ID>
+        <TITLE>has anyone investigated the unsteady lift distributions on finitewings in subsonic flow .</TITLE>
+    </Element>
+    <Element>
+        <ID>146.</ID>
+        <TITLE>what information is available for dynamic response of airplanes togusts  or blasts in the subsonic regime .</TITLE>
+    </Element>
+    <Element>
+        <ID>147.</ID>
+        <TITLE>will forward or apex located controls be effective at low subsonicspeeds and how do they compare with conventional trailing-edgeflaps .</TITLE>
+    </Element>
+    <Element>
+        <ID>148.</ID>
+        <TITLE>given that an uncontrolled vehicle will tumble as it enters anatmosphere, is it possible to predict when and how it will stoptumbling and its subsequent motion .</TITLE>
+    </Element>
+    <Element>
+        <ID>149.</ID>
+        <TITLE>what are the effects of initial imperfections on the elastic buckling ofcylindrical shells under axial compression .</TITLE>
+    </Element>
+    <Element>
+        <ID>150.</ID>
+        <TITLE>why does the incremental theory and the deformation theory of plasticstress-strain relationship differ greatly when applied to stabilityproblems .</TITLE>
+    </Element>
+    <Element>
+        <ID>152.</ID>
+        <TITLE>basic dynamic characteristics of structures continuous over many spans .</TITLE>
+    </Element>
+    <Element>
+        <ID>153.</ID>
+        <TITLE>is the information on the buckling of sandwich sphere available .</TITLE>
+    </Element>
+    <Element>
+        <ID>154.</ID>
+        <TITLE>can the load deformation characteristics of a beam be obtained with thematerial being inelastic and a non uniform temperature being present .</TITLE>
+    </Element>
+    <Element>
+        <ID>155.</ID>
+        <TITLE>what is the effect of an internal liquid column on the breathingvibrations of a cylindrical shell .</TITLE>
+    </Element>
+    <Element>
+        <ID>156.</ID>
+        <TITLE>experimental techniques in shell vibration .</TITLE>
+    </Element>
+    <Element>
+        <ID>157.</ID>
+        <TITLE>in summarizing theoretical and experimental work on the behaviour of atypical aircraft structure in a noise environment is it possible todevelop a design procedure .</TITLE>
+    </Element>
+    <Element>
+        <ID>158.</ID>
+        <TITLE>what data is there on the fatigue of structures under acoustic loading .</TITLE>
+    </Element>
+    <Element>
+        <ID>160.</ID>
+        <TITLE>panels subjected to aerodynamic heating .</TITLE>
+    </Element>
+    <Element>
+        <ID>161.</ID>
+        <TITLE>can increasing the edge loading of a plate beyond the critical value forbuckling change the buckling mode .</TITLE>
+    </Element>
+    <Element>
+        <ID>163.</ID>
+        <TITLE>have the effects of an elastic edge restraint been considered inprevious papers on panel flutter .</TITLE>
+    </Element>
+    <Element>
+        <ID>164.</ID>
+        <TITLE>has the solution of the clamped plate problem,  in the classical theoryof bending,  been reduced to two successive membrane boundary valueproblems .</TITLE>
+    </Element>
+    <Element>
+        <ID>165.</ID>
+        <TITLE>what data exists on oscillatory aerodynamic forces on control surfacesat transonic mach numbers .</TITLE>
+    </Element>
+    <Element>
+        <ID>167.</ID>
+        <TITLE>it is not likely that the airforces on a wing of general planformoscillating in transonic flow can be determined by purely analyticalmethods . is it possible to determine the airforces on a singleparticular planform, such as the rectangular one by such method .</TITLE>
+    </Element>
+    <Element>
+        <ID>168.</ID>
+        <TITLE>is the problem of similarity for representative investigations ofaeroelastic effects in heated flow as intractable as previous investigationsimply .</TITLE>
+    </Element>
+    <Element>
+        <ID>169.</ID>
+        <TITLE>what is the magnitude and distribution of lift over the cone and thecylindrical portion of a cone-cylinder configuration .</TITLE>
+    </Element>
+    <Element>
+        <ID>170.</ID>
+        <TITLE>is there any information on how the addition of a /boat-tail/ affectsthe normal force on the body of various angles of incidence .</TITLE>
+    </Element>
+    <Element>
+        <ID>171.</ID>
+        <TITLE>what are the aerodynamic interference effects on the fin lift and bodylift of a fin-body combination .</TITLE>
+    </Element>
+    <Element>
+        <ID>173.</ID>
+        <TITLE>what is the effect of initial axisymmetric deviations from circularityon the non linear (large-deflection) load-deflection response ofcylinders under hydrostatic pressure .</TITLE>
+    </Element>
+    <Element>
+        <ID>175.</ID>
+        <TITLE>are previous analyses of circumferential thermal buckling of circularcylindrical shells unnecessarily involved or even inaccurate due to theassumed forms of buckling mode .</TITLE>
+    </Element>
+    <Element>
+        <ID>176.</ID>
+        <TITLE>what papers are there dealing with circumferential buckling eitherthermal buckling or due to mechanical loading .</TITLE>
+    </Element>
+    <Element>
+        <ID>177.</ID>
+        <TITLE>what analytical investigations have been made of the stability ofconical shells . how do the results compare with experiment .</TITLE>
+    </Element>
+    <Element>
+        <ID>181.</ID>
+        <TITLE>has any work been done on determining the nature of compressibleviscous flow in a straight channel .</TITLE>
+    </Element>
+    <Element>
+        <ID>182.</ID>
+        <TITLE>in what areas, other than low density wind tunnel flows, is viscouscompressible flow in slender channels a problem .what analytical investigations have been made of the stability ofconical shells . how do the results compare with experiment .</TITLE>
+    </Element>
+    <Element>
+        <ID>183.</ID>
+        <TITLE>jet interference with supersonic flow  -dash experimental papers .</TITLE>
+    </Element>
+    <Element>
+        <ID>184.</ID>
+        <TITLE>thrust vector control by fluid injection -dash papers .</TITLE>
+    </Element>
+    <Element>
+        <ID>187.</ID>
+        <TITLE>is it possible to obtain a reasonably simple analytical solution to theheat equation for an exponential (in time) heat input .</TITLE>
+    </Element>
+    <Element>
+        <ID>189.</ID>
+        <TITLE>has anyone programmed a pump design method for a high-speed digitalcomputer .</TITLE>
+    </Element>
+    <Element>
+        <ID>190.</ID>
+        <TITLE>has anyone derived simplified pump design equation from the fundamentalthree-dimensional equations for incompressible nonviscous flow .</TITLE>
+    </Element>
+    <Element>
+        <ID>196.</ID>
+        <TITLE>what are the flutter characteristics of the exposed skin panels of thex-15 vertical stabilizer when subjected to aerodynamic heating .</TITLE>
+    </Element>
+    <Element>
+        <ID>200.</ID>
+        <TITLE>what agreement is found between theoretically predicted instabilitytimes and experimentally measured collapse times for compressed columnsin creep .</TITLE>
+    </Element>
+    <Element>
+        <ID>201.</ID>
+        <TITLE>theoretical studies of creep buckling .</TITLE>
+    </Element>
+    <Element>
+        <ID>202.</ID>
+        <TITLE>experimental studies of creep buckling .</TITLE>
+    </Element>
+    <Element>
+        <ID>203.</ID>
+        <TITLE>is it possible to correlate the results on the creep buckling of widelydifferent structures within the framework of a single theory .</TITLE>
+    </Element>
+    <Element>
+        <ID>204.</ID>
+        <TITLE>what are the experimental results for the creep buckling of columns .</TITLE>
+    </Element>
+    <Element>
+        <ID>205.</ID>
+        <TITLE>what are the results for the creep buckling of round tubes underexternal pressure .</TITLE>
+    </Element>
+    <Element>
+        <ID>206.</ID>
+        <TITLE>have any analytical studies been conducted on the time-to-failuremechanism associated with creep collapse for a long circular cylindricalshell which exhibits both primary and secondary creep as well as elasticdeformations under various distributed force systems .</TITLE>
+    </Element>
+    <Element>
+        <ID>208.</ID>
+        <TITLE>has the effect of initial stresses,  on the frequencies of vibration ofcircular cylindrical shells,  been investigated .</TITLE>
+    </Element>
+    <Element>
+        <ID>209.</ID>
+        <TITLE>has the effect of the change of initial pressure due to deformation,  onthe frequencies of vibration of circular cylindrical shells beeninvestigated .</TITLE>
+    </Element>
+    <Element>
+        <ID>210.</ID>
+        <TITLE>what are the discontinuity stresses at junctions in pressurizedstructures .</TITLE>
+    </Element>
+    <Element>
+        <ID>211.</ID>
+        <TITLE>what analytical solutions are available for stresses in edge-loadedshells of revolution .</TITLE>
+    </Element>
+    <Element>
+        <ID>212.</ID>
+        <TITLE>what dome contours minimize discontinuity stresses when used as closureson cylindrical pressure vessels .</TITLE>
+    </Element>
+    <Element>
+        <ID>213.</ID>
+        <TITLE>what general solutions for the stresses in pressurized shells ofrevolution are available .</TITLE>
+    </Element>
+    <Element>
+        <ID>214.</ID>
+        <TITLE>can studies of pure membrane cylinders having no wall bending stiffnessbut maintaining their shape by virtue of internal pressure provide anyinsight into the behaviour of pressurized cylinders with finite wallstiffness .</TITLE>
+    </Element>
+    <Element>
+        <ID>215.</ID>
+        <TITLE>what are the best experimental data and classical small deflectiontheory analyses available for pressurized cylinders in bending .</TITLE>
+    </Element>
+    <Element>
+        <ID>216.</ID>
+        <TITLE>does a membrane theory exist by which the behaviour of pressurizedmembrane cylinders in bending can be predicted .</TITLE>
+    </Element>
+    <Element>
+        <ID>217.</ID>
+        <TITLE>what are the equations which define the stability of simply supportedcorrugated core sandwich cylinders .</TITLE>
+    </Element>
+    <Element>
+        <ID>218.</ID>
+        <TITLE>papers on small deflection theory for buckling of sandwich cylinders .</TITLE>
+    </Element>
+    <Element>
+        <ID>219.</ID>
+        <TITLE>has anyone developed an analysis which accurately establishes the largedeflection behaviour of conical shells .</TITLE>
+    </Element>
+    <Element>
+        <ID>223.</ID>
+        <TITLE>what is the magnitude of second-order wing-body interferenceat high supersonic mach number .</TITLE>
+    </Element>
+    <Element>
+        <ID>224.</ID>
+        <TITLE>what is the best theoretical method for calculating pressure on thesurface of a wing alone .</TITLE>
+    </Element>
+    <Element>
+        <ID>225.</ID>
+        <TITLE>how can the effect of the boundary-layer on wing pressure be calculated,and what is its magnitude .</TITLE>
+    </Element>
+    <Element>
+        <ID>226.</ID>
+        <TITLE>how should the navier-stokes difference equations be solved .</TITLE>
+    </Element>
+    <Element>
+        <ID>227.</ID>
+        <TITLE>which  iterative method for solving linear ellipticdifference equations is most rapidly convergent .</TITLE>
+    </Element>
+    <Element>
+        <ID>230.</ID>
+        <TITLE>technical report on measurement of ablation during flight .</TITLE>
+    </Element>
+    <Element>
+        <ID>231.</ID>
+        <TITLE>what qualitative and quantitative material is available on ablationmaterials research .</TITLE>
+    </Element>
+    <Element>
+        <ID>232.</ID>
+        <TITLE>have flow fields been calculated for blunt-nosed bodies and comparedwith experiment for a wide range of free stream conditions and bodyshapes .</TITLE>
+    </Element>
+    <Element>
+        <ID>233.</ID>
+        <TITLE>what are the available properties of high-temperature air .</TITLE>
+    </Element>
+    <Element>
+        <ID>234.</ID>
+        <TITLE>what is the magnitude of aerodynamic damping in flexible vibration modesof a slender body of revolution characteristic of launch vehicles .</TITLE>
+    </Element>
+    <Element>
+        <ID>241.</ID>
+        <TITLE>compressive circumferential stresses in a torispherical shell revealthe possibility of buckling under internal pressure . has anyoneinvestigated for which ranges of shell parameters these stresses aresufficiently large to cause elastic buckling .</TITLE>
+    </Element>
+    <Element>
+        <ID>245.</ID>
+        <TITLE>is there an integral method to give a single and sufficiently accuratemethod of calculating the laminar separate point for variousincompressible and compressible boundary layers with zero heat transfer .</TITLE>
+    </Element>
+    <Element>
+        <ID>246.</ID>
+        <TITLE>what accurate or exact solutions of the laminar separation point forvarious incompressible and compressible boundary layers with zero heattransfer are available .</TITLE>
+    </Element>
+    <Element>
+        <ID>247.</ID>
+        <TITLE>can the hypersonic similarity results be applied to the technique ofpredicting surface pressures of an ogive forebody at angle of attack .</TITLE>
+    </Element>
+    <Element>
+        <ID>250.</ID>
+        <TITLE>what determines the onset of shock-induced boundary-layer separation .</TITLE>
+    </Element>
+    <Element>
+        <ID>251.</ID>
+        <TITLE>are the stable profiles of a compressible boundary layer induced by amoving wave known .</TITLE>
+    </Element>
+    <Element>
+        <ID>252.</ID>
+        <TITLE>are there experimental results on the stability of a compressibleboundary layer induced by a moving wave .</TITLE>
+    </Element>
+    <Element>
+        <ID>253.</ID>
+        <TITLE>exact solution methods for calculating the ablative mass loss of amaterial ablating at high temperatures in a hypersonic flightenvironment .</TITLE>
+    </Element>
+    <Element>
+        <ID>254.</ID>
+        <TITLE>what approximate solutions are known to the direct problem of transonicflow in the throat of a nozzle,  i.e. finding the flow in a givennozzle .</TITLE>
+    </Element>
+    <Element>
+        <ID>255.</ID>
+        <TITLE>what approximate solutions are known to the indirect problem oftransonic flow in the throat of a nozzle,  i.e. finding a nozzle whichhas a given axial velocity distribution .</TITLE>
+    </Element>
+    <Element>
+        <ID>257.</ID>
+        <TITLE>why do users of orthodox pitot-static tubes often find that thecalibrations appear to be,. - (a) significantly different from those formerlyspecified,  (b) wildly variable at low reynolds numbers .</TITLE>
+    </Element>
+    <Element>
+        <ID>259.</ID>
+        <TITLE>has a comparison been made between interference-free drag measurementsusing free-flight models and similar measurements made in a low-blockagewind tunnel .</TITLE>
+    </Element>
+    <Element>
+        <ID>261.</ID>
+        <TITLE>solution of the blasius problem with three-point boundary conditions .</TITLE>
+    </Element>
+    <Element>
+        <ID>264.</ID>
+        <TITLE>references on lyapunov's method on the stability of lineardifferential equations with periodic coefficients .</TITLE>
+    </Element>
+    <Element>
+        <ID>265.</ID>
+        <TITLE>obtain all papers and reports that contain shock detachment distancedata .</TITLE>
+    </Element>
+    <Element>
+        <ID>266.</ID>
+        <TITLE>work on flow in channels at low reynolds numbers .</TITLE>
+    </Element>
+    <Element>
+        <ID>267.</ID>
+        <TITLE>some approximate analytical heat conduction solutions using methodsother than biot's principle .</TITLE>
+    </Element>
+    <Element>
+        <ID>268.</ID>
+        <TITLE>what mode of stalling can be expected for each stage of an axialcompressor .</TITLE>
+    </Element>
+    <Element>
+        <ID>269.</ID>
+        <TITLE>has a criterion been established for determining the axial compressorchoking line .</TITLE>
+    </Element>
+    <Element>
+        <ID>272.</ID>
+        <TITLE>has a theory of quasi-conical flows been developed, in supersoniclinearised theory, for which the upwash distribution on the liftingsurface, apart from being a homogeneous function in theco-ordinate, is permitted to have a quite general functional form .</TITLE>
+    </Element>
+    <Element>
+        <ID>273.</ID>
+        <TITLE>how does scale height vary with altitude in an atmosphere .</TITLE>
+    </Element>
+    <Element>
+        <ID>274.</ID>
+        <TITLE>jet interference with supersonic flowstheoretical papers .</TITLE>
+    </Element>
+    <Element>
+        <ID>275.</ID>
+        <TITLE>effects of leading-edge bluntness on the flutter characteristics of somesquare-planform double-wedge airfoils at mach numbers less than 15.4.</TITLE>
+    </Element>
+    <Element>
+        <ID>277.</ID>
+        <TITLE>what factors have been shown to have a primary influence on sonic boomstrength .</TITLE>
+    </Element>
+    <Element>
+        <ID>283.</ID>
+        <TITLE>work on small-oscillation re-entry motions .</TITLE>
+    </Element>
+    <Element>
+        <ID>284.</ID>
+        <TITLE>experimental studies on panel flutter .</TITLE>
+    </Element>
+    <Element>
+        <ID>285.</ID>
+        <TITLE>how can wing-body,  flow field interference effects be approximatedrationally .</TITLE>
+    </Element>
+    <Element>
+        <ID>288.</ID>
+        <TITLE>has anyone analytically or experimentally investigated the effects ofinternal pressure on the buckling of circular-cylindrical shells underbending .</TITLE>
+    </Element>
+    <Element>
+        <ID>291.</ID>
+        <TITLE>what theoretical and experimental work has been done on the excitationand response of typical structures in a noise environment .</TITLE>
+    </Element>
+    <Element>
+        <ID>292.</ID>
+        <TITLE>is there a design method for calculating thermal fatigue endurances ofcomponents of various types and sizes in a variety of circumstances .</TITLE>
+    </Element>
+    <Element>
+        <ID>293.</ID>
+        <TITLE>will an analysis of panel flutter based on arbitrarily assumed modes ofdeformation prove satisfactory,  and if so,  what is the minimum numberof modes that need be considered .</TITLE>
+    </Element>
+    <Element>
+        <ID>294.</ID>
+        <TITLE>what is the criterion for true panel flutter,  as opposed to smallamplitude vibration arising from acoustic disturbances .</TITLE>
+    </Element>
+    <Element>
+        <ID>295.</ID>
+        <TITLE>papers dealing with uniformly loaded sectors .</TITLE>
+    </Element>
+    <Element>
+        <ID>296.</ID>
+        <TITLE>general methods of solving clamped plate problems .</TITLE>
+    </Element>
+    <Element>
+        <ID>297.</ID>
+        <TITLE>how can the analytical solution of the buckling strength of a uniformcircular cylinder loaded in axial compression be refined so as to lowerthe buckling load .</TITLE>
+    </Element>
+    <Element>
+        <ID>298.</ID>
+        <TITLE>in the problem of the buckling strength of uniform circular cylindersloaded in axial compression,  does the linear solution help withimproving the non-linear one .</TITLE>
+    </Element>
+    <Element>
+        <ID>299.</ID>
+        <TITLE>the problem of similarity for representative investigation ofaeroelastic effects in a flow with the absence of heating effects .</TITLE>
+    </Element>
+    <Element>
+        <ID>300.</ID>
+        <TITLE>how is fatigue damage estimated using the normal long-hand method .</TITLE>
+    </Element>
+    <Element>
+        <ID>301.</ID>
+        <TITLE>is there any information available on the difference in the effects ofvarious edge conditions on the buckling of cylindrical shells .</TITLE>
+    </Element>
+    <Element>
+        <ID>303.</ID>
+        <TITLE>have non-linear large deflection analyses been conducted for shellshapes other than conical .</TITLE>
+    </Element>
+    <Element>
+        <ID>304.</ID>
+        <TITLE>are asymptotic methods sufficiently accurate in the determination ofpre-buckling stresses in torispherical shells,  or must we resort tonumerical methods .</TITLE>
+    </Element>
+    <Element>
+        <ID>306.</ID>
+        <TITLE>what are the nonequilibrium chemical constituents in the viscous shocklayer ahead of a blunt re-entry vehicle .</TITLE>
+    </Element>
+    <Element>
+        <ID>314.</ID>
+        <TITLE>how accurate are existing analytical theories in estimating pressuredistributions on cones at incidence,  at hypersonic speeds .</TITLE>
+    </Element>
+    <Element>
+        <ID>315.</ID>
+        <TITLE>are simple empirical methods of any use for estimating pressuredistribution in cones .</TITLE>
+    </Element>
+    <Element>
+        <ID>316.</ID>
+        <TITLE>do viscous effects seriously modify pressure distributions .</TITLE>
+    </Element>
+    <Element>
+        <ID>317.</ID>
+        <TITLE>has anyone investigated theoretically whether surface flexibilitycan stabilize a laminar boundary layer .</TITLE>
+    </Element>
+    <Element>
+        <ID>321.</ID>
+        <TITLE>how do subsonic and transonic flutter data measured in the new langleytransonic dynamics tunnel compare with similar data obtained in otherfacilities .</TITLE>
+    </Element>
+    <Element>
+        <ID>323.</ID>
+        <TITLE>how do large changes in new mass ratio quantitatively affectwing-flutter boundaries .</TITLE>
+    </Element>
+    <Element>
+        <ID>327.</ID>
+        <TITLE>what is the effect of the shape of the drag polar of a liftingspacecraft on the amount of reduction in maximum deceleration obtainable bycontinuously varying the aerodynamic coefficients during re-entry .</TITLE>
+    </Element>
+    <Element>
+        <ID>331.</ID>
+        <TITLE>what are the physical significance and characteristics of separatedlaminar and turbulent boundary layer flows .</TITLE>
+    </Element>
+    <Element>
+        <ID>332.</ID>
+        <TITLE>has anyone analytically investigated the stabilizing influence of softelastic cores on the buckling strength of cylindrical shells subjectedto non-uniform external pressure .</TITLE>
+    </Element>
+    <Element>
+        <ID>333.</ID>
+        <TITLE>what papers are available on the buckling of empty cylindrical shellsunder non-uniform pressure .</TITLE>
+    </Element>
+    <Element>
+        <ID>335.</ID>
+        <TITLE>what effect do thermal stresses have on the compressive bucklingstrength of ring-stiffened cylinders .</TITLE>
+    </Element>
+    <Element>
+        <ID>336.</ID>
+        <TITLE>what is the effect on cylinder buckling of a circumferential stresssystem that varies in the axial direction .</TITLE>
+    </Element>
+    <Element>
+        <ID>338.</ID>
+        <TITLE>can non-linear shallow shell analysis be reduced to an engineeringtechnique by use of the matrix .</TITLE>
+    </Element>
+    <Element>
+        <ID>339.</ID>
+        <TITLE>is it possible to predict the shape of a shroud which will allowsimulation of the nose region flow field for a sphere in hypersonic flow .</TITLE>
+    </Element>
+    <Element>
+        <ID>340.</ID>
+        <TITLE>what investigations have been made of the wave system created by astatic pressure distribution over a liquid surface .</TITLE>
+    </Element>
+    <Element>
+        <ID>347.</ID>
+        <TITLE>has anyone investigated the effect of shock generated vorticity on heattransfer to a blunt body .</TITLE>
+    </Element>
+    <Element>
+        <ID>348.</ID>
+        <TITLE>what is the heat transfer to a blunt body in the absence of vorticity .</TITLE>
+    </Element>
+    <Element>
+        <ID>349.</ID>
+        <TITLE>what are the general effects on flow fields when the reynolds number issmall .</TITLE>
+    </Element>
+    <Element>
+        <ID>352.</ID>
+        <TITLE>find a calculation procedure applicable to all incompressible laminarboundary layer flow problems having good accuracy and reasonablecomputation time .</TITLE>
+    </Element>
+    <Element>
+        <ID>353.</ID>
+        <TITLE>papers applicable to this problem (calculation procedures for laminarincompressible flow with arbitrary pressure gradient) .</TITLE>
+    </Element>
+    <Element>
+        <ID>355.</ID>
+        <TITLE>has anyone investigated the shear buckling of stiffened plates .</TITLE>
+    </Element>
+    <Element>
+        <ID>356.</ID>
+        <TITLE>papers on shear buckling of unstiffened rectangular plates under shear .</TITLE>
+    </Element>
+    <Element>
+        <ID>360.</ID>
+        <TITLE>in practice, how close to reality are the assumptions that the flowin a hypersonic shock tube using nitrogen is non-viscous and inthermodynamic equilibrium .</TITLE>
+    </Element>
+    <Element>
+        <ID>365.</ID>
+        <TITLE>what design factors can be used to control lift-drag ratios at machnumbers above 5 .</TITLE>
+    </Element>
+</Document>
