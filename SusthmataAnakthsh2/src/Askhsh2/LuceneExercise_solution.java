@@ -10,6 +10,7 @@ import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.index.IndexWriterConfig.OpenMode;
+import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
@@ -80,9 +81,17 @@ public class LuceneExercise_solution {
                 Element ei = (Element) ni; //type cast to element
                 String ID = ei.getElementsByTagName("I").item(0).getTextContent();
                 String TITLE = ei.getElementsByTagName("W").item(0).getTextContent();
+
+
+                //MUltiple fields
+//                String[] fields={"TITLE","DESCRIPTION"};
+//                Query q = new MultiFieldQueryParser(fields,analyzer).parse(qstr);
+
                 //Give the query to the parser
-                QueryParser qp = new QueryParser("TITLE", analyzer);
+                QueryParser qp = new QueryParser("DESCRIPTION", analyzer);
                 String qs[] = {TITLE, "XML parser"};
+
+
                 //Limit results to 500 per query
                 int hitsPerPage = 500;
                 IndexReader reader = null;
