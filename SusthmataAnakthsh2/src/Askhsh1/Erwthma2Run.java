@@ -1,3 +1,5 @@
+package Askhsh1;
+
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -19,12 +21,12 @@ public class Erwthma2Run {
 		// HashMap map = (HashMap) tokenize("cran.qry");
 		// //System.out.println("UNSORTED MAP
 		// =====================================================\n"+new
-		// PrettyPrintingMap<String, Integer>(map));
+		// Askhsh1.PrettyPrintingMap<String, Integer>(map));
 		// LinkedHashMap sorted_map = sortHashMapByValuesD(map);
 		//
 		// System.out.println("SORTED MAP
 		// =====================================================\n" + new
-		// PrettyPrintingMap<String, Integer>(sorted_map));
+		// Askhsh1.PrettyPrintingMap<String, Integer>(sorted_map));
 		//
 		// System.out.println("Number of words " + N);
 		//
@@ -44,7 +46,7 @@ public class Erwthma2Run {
 		System.out.println("SORTED MAP \n" + new PrettyPrintingMap<String, Integer>(sorted_map));
 		System.out.println("Sunepw parathroume oti o kanonas tou zipf isxuei sta dika ams text arxeia.");
 
-		// List<MyPoint> list = new ArrayList<MyPoint>();
+		// List<Askhsh1.MyPoint> list = new ArrayList<Askhsh1.MyPoint>();
 //		int rank = 1;
 //		for (java.util.Map.Entry<String, Integer> entry : sorted_map.entrySet()) {
 //
@@ -52,7 +54,7 @@ public class Erwthma2Run {
 //
 //			 System.out.println("Frequency of Element :" + entry.getKey() + " = " + entry.getValue() + "\t\tand rank" + (rank++));
 //
-//			// list.add(new MyPoint(Math.log(entry.getValue()),
+//			// list.add(new Askhsh1.MyPoint(Math.log(entry.getValue()),
 //			// Math.log(rank)));
 //
 //			// }

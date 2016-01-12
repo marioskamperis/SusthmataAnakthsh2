@@ -1,3 +1,5 @@
+package Askhsh1;
+
 import java.util.Random;
 
 public class ZipfGenerator {

@@ -1,3 +1,5 @@
+package Askhsh1;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -10,7 +12,6 @@ import java.util.List;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
 
 @SuppressWarnings("serial")
 public class DrawGraph extends JPanel {
@@ -98,9 +99,9 @@ public class DrawGraph extends JPanel {
 
 		DrawGraph mainPanel = new DrawGraph(list);
 
-		JFrame frame = new JFrame("DrawGraph");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().add(mainPanel);
+        JFrame frame = new JFrame("Askhsh1.DrawGraph");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().add(mainPanel);
 		frame.pack();
 		frame.setLocationByPlatform(true);
 		frame.setVisible(true);

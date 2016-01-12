@@ -1,3 +1,4 @@
+package Askhsh1;
 
 public class MyPoint {
 	private double x;

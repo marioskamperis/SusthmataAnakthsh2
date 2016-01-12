@@ -1,3 +1,5 @@
+package Askhsh1;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Scanner;
@@ -24,8 +26,8 @@ public class XMLParser {
 
 	public void begin() {
 		try {
-			in = new BufferedReader(new FileReader(".resources/cran.qry"));
-			out = new StreamResult(".resources/cran.xml");
+			in = new BufferedReader(new FileReader("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\cran.qry"));
+			out = new StreamResult("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\queries.xml");
 			openXml();
 			String str="";
 			String text = "";
@@ -67,12 +69,12 @@ public class XMLParser {
 
 		th.setResult(out);
 		th.startDocument();
-		th.startElement(null, null, "Document", null);
+		th.startElement(null, null, "Queries", null);
 	}
 
 	public void process(String s) throws SAXException {
 		// th.startEntity("qry");
-		th.startElement(null, null, "qry", null);
+		th.startElement(null, null, "Query", null);
 		th.startElement(null, null, "I", null);
 		th.characters(s.toCharArray(), 1, s.indexOf("."));
 		th.endElement(null, null, "I");
@@ -83,11 +85,11 @@ public class XMLParser {
 		th.characters(s.toCharArray(), 0, s.length());
 		th.endElement(null, null, "W");
 
-		th.endElement(null, null, "qry");
+		th.endElement(null, null, "Query");
 	}
 
 	public void closeXml() throws SAXException {
-		th.endElement(null, null, "Document");
+		th.endElement(null, null, "Queries");
 		th.endDocument();
 	}
 }

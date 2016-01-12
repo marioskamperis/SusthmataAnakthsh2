@@ -1,3 +1,5 @@
+package Askhsh1;
+
 import java.io.File;
 import java.io.FileReader;
 import java.util.Scanner;
@@ -23,9 +25,9 @@ public class XMLParser2 {
 
 	public void begin() {
 		try {
-			
-			in = new Scanner(new FileReader(new File("cran.all.1400")));
-			out = new StreamResult("cran_all_1400.xml");
+
+			in = new Scanner(new FileReader(new File("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\cran.all.1400")));
+			out = new StreamResult("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\documents.xml");
 			openXml();
 
 			String line = "";
@@ -41,14 +43,14 @@ public class XMLParser2 {
 				String b = line.substring(line.indexOf(".B") + 2, line.indexOf(".W"));
 				String w = line.substring(line.indexOf(".W") + 2, line.length() - 1);
 
-				
-				th.startElement(null, null, "qry", null);
-				process((i.replace("\n", "\t").trim()), "ID");
-				process((t.replace("\n", "\t").trim()), "TITLE");
-				process((a.replace("\n", "\t").trim()), "AUTHOR");
-				process((b.replace("\n", "\t").trim()), "DEPARTMENT");
-				process((w.replace("\n", "\t").trim()), "DESCRIPTION");
-				th.endElement(null, null, "qry");
+
+				th.startElement(null, null, "Document", null);
+				process((i.replace("\n", "\t").trim()), "I");
+				process((t.replace("\n", "\t").trim()), "T");
+				process((a.replace("\n", "\t").trim()), "A");
+				process((b.replace("\n", "\t").trim()), "B");
+				process((w.replace("\n", "\t").trim()), "W");
+				th.endElement(null, null, "Document");
 
 			}
 			in.close();
@@ -70,7 +72,7 @@ public class XMLParser2 {
 
 		th.setResult(out);
 		th.startDocument();
-		th.startElement(null, null, "Document", null);
+		th.startElement(null, null, "Documents", null);
 	}
 
 	public void process(String s, String title) throws SAXException {
@@ -80,7 +82,7 @@ public class XMLParser2 {
 	}
 
 	public void closeXml() throws SAXException {
-		th.endElement(null, null, "Document");
+		th.endElement(null, null, "Documents");
 		th.endDocument();
 	}
 }
