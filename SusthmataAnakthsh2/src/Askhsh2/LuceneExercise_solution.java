@@ -98,7 +98,7 @@ public class LuceneExercise_solution {
                         for (int k = 0; k < hits.length; ++k) {
                             int docId = hits[k].doc;
                             org.apache.lucene.document.Document d = searcher.doc(docId);
-                            sb.append("Query: " + ID + " Document: " + d.get("ID") + " Score :" + hits[k].score + "\n");
+                            sb.append(Integer.parseInt(ID.substring(0, ID.length() - 1).trim()) + " \t" + Integer.parseInt(d.get("ID")) + " \t" + hits[k].score + "\n");
 //        				System.out.println((k + 1) + ".\t"
 //        						+"ID :"+ d.get("ID")+"\n"
 //        						+"TITLE :"+ d.get("TITLE")+"\n"
