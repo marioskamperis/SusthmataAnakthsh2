@@ -24,8 +24,8 @@ public class XMLParser {
 
 	public void begin() {
 		try {
-			in = new BufferedReader(new FileReader("cran.qry"));
-			out = new StreamResult("cran.xml");
+			in = new BufferedReader(new FileReader(".resources/cran.qry"));
+			out = new StreamResult(".resources/cran.xml");
 			openXml();
 			String str="";
 			String text = "";

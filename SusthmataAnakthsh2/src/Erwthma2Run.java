@@ -5,12 +5,9 @@ import java.io.PrintStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
-import java.util.stream.Stream;
 
 public class Erwthma2Run {
 
@@ -35,7 +32,7 @@ public class Erwthma2Run {
 		Map<String, Integer> map = (MyMap) tokenize("cran.all.1400");
 		ValueComparator bvc = new ValueComparator(map);
 		TreeMap temp_map = new TreeMap(bvc);
-		Map<String, Integer> sorted_map = sortByValue(map);
+		Map<String, Integer> sorted_map = map;//sortByValue(map);
 		PrintStream out = null;
 		try {
 			out = new PrintStream(new FileOutputStream("ZipfStats.txt"));
@@ -108,14 +105,14 @@ public class Erwthma2Run {
 		return new String(encoded);
 	}
 
-	public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
-		Map<K, V> result = new LinkedHashMap<>();
-		Stream<Entry<K, V>> st = map.entrySet().stream();
-
-		st.sorted(Comparator.comparing(e -> e.getValue())).forEachOrdered(e -> result.put(e.getKey(), e.getValue()));
-
-		return result;
-	}
+//	public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
+//		Map<K, V> result = new LinkedHashMap();
+//		Stream<Entry<K, V>> st = map.entrySet().stream();
+//
+//		st.sorted(Comparator.comparing(e -> e.getValue())).forEachOrdered(e -> result.put(e.getKey(), e.getValue()));
+//
+//		return result;
+//	}
 
 }
 

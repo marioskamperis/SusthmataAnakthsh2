@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lucene-analyzers-common-4.10.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SusthmataAnakthsh2/lucene-analyzers-common-4.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SusthmataAnakthsh2/lucene-core-4.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SusthmataAnakthsh2/lucene-queryparser-4.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SusthmataAnakthsh2/lukeall-4.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
