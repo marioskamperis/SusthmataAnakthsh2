@@ -10,7 +10,6 @@ import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.index.IndexWriterConfig.OpenMode;
-import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
@@ -32,13 +31,16 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
-public class LuceneExercise_solution {
+public class LuceneImplementation {
+
+    static final String QUERIES_PATH = "E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\queries.xml";
+    static final String DOCUMENTS_PATH = "E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\documents.xml";
+    static final String OUTPUT_PATH = "E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\relevance.txt";
 
     public static void main(String[] args) throws Exception {
-        // INitiliaze Lucene ant all neede components
+        // Initiliaze Lucene and all needed components
         StandardAnalyzer analyzer = new StandardAnalyzer();
         String indexLocation = "index";
-        //Directory index = new RAMDirectory();
         Directory index = FSDirectory.open(new File(indexLocation));
         IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_4_10_2, analyzer);
         config.setOpenMode(OpenMode.CREATE);
@@ -47,7 +49,7 @@ public class LuceneExercise_solution {
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         //Parse Documents and insert them in Lucene
-        Document doc = dBuilder.parse("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\documents.xml");
+        Document doc = dBuilder.parse(DOCUMENTS_PATH);
         Element rootElement = doc.getDocumentElement();
         NodeList nodes = rootElement.getChildNodes();
 
@@ -69,7 +71,7 @@ public class LuceneExercise_solution {
         // Parse Queries XML
         dbFactory = DocumentBuilderFactory.newInstance();
         dBuilder = dbFactory.newDocumentBuilder();
-        doc = dBuilder.parse("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\queries.xml");
+        doc = dBuilder.parse(QUERIES_PATH);
         rootElement = doc.getDocumentElement();
         nodes = rootElement.getChildNodes();
         StringBuilder sb = new StringBuilder();
@@ -82,11 +84,6 @@ public class LuceneExercise_solution {
                 String ID = ei.getElementsByTagName("I").item(0).getTextContent();
                 String TITLE = ei.getElementsByTagName("W").item(0).getTextContent();
 
-
-                //MUltiple fields
-//                String[] fields={"TITLE","DESCRIPTION"};
-//                Query q = new MultiFieldQueryParser(fields,analyzer).parse(qstr);
-
                 //Give the query to the parser
                 QueryParser qp = new QueryParser("DESCRIPTION", analyzer);
                 String qs[] = {TITLE, "XML parser"};
@@ -98,6 +95,7 @@ public class LuceneExercise_solution {
                 try {
                     reader = DirectoryReader.open(index);
                     IndexSearcher searcher = new IndexSearcher(reader);
+                    int counter = 1;
                     for (String q : qs) {
                         Query query = qp.parse(q);
                         TopScoreDocCollector collector = TopScoreDocCollector.create(hitsPerPage, true);
@@ -107,13 +105,7 @@ public class LuceneExercise_solution {
                         for (int k = 0; k < hits.length; ++k) {
                             int docId = hits[k].doc;
                             org.apache.lucene.document.Document d = searcher.doc(docId);
-                            sb.append(Integer.parseInt(ID.substring(0, ID.length() - 1).trim()) + " \t" + Integer.parseInt(d.get("ID")) + " \t" + hits[k].score + "\n");
-//        				System.out.println((k + 1) + ".\t"
-//        						+"ID :"+ d.get("ID")+"\n"
-//        						+"TITLE :"+ d.get("TITLE")+"\n"
-//        						+"AUTHOR :"+ d.get("AUTHOR")+"\n"
-//        						+"DEPARTMENT :"+ d.get("DEPARTMENT")+"\n"
-//        						+"\n\tScore: "+hits[k].score);
+                            sb.append(Integer.parseInt(ID.substring(0, ID.length() - 1).trim()) + " 0 " + Integer.parseInt(d.get("ID")) + " " + (counter++) + " " + hits[k].score + " 0\n");
                         }
                     }
                 } catch (ParseException e) {
@@ -124,7 +116,7 @@ public class LuceneExercise_solution {
         }
 
         writer.close();
-        PrintWriter Filewriter = new PrintWriter("E:\\Programing\\workspace\\SusthmataAnakthsh2\\SusthmataAnakthsh2\\relevance.txt", "UTF-8");
+        PrintWriter Filewriter = new PrintWriter(OUTPUT_PATH, "UTF-8");
         Filewriter.println(sb.toString());
         writer.close();
 
