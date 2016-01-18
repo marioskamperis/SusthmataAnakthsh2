@@ -133,7 +133,7 @@ public class LuceneImplementation {
         doc.add(tf);
         tf = new StoredField("DEPARTMENT", DEPARTMENT);
         doc.add(tf);
-        tf = new TextField("DESCRIPTION", DESCRIPTION, Field.Store.YES);
+        tf = new TextField("DESCRIPTION", DESCRIPTION, Field.Store.NO);
         doc.add(tf);
         writer.addDocument(doc);
     }
